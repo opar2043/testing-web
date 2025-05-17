@@ -15,7 +15,7 @@ const Navbar = () => {
     </>
   return (
     <div>
-      <div className="navbar px-6 text-white bg-gradient-to-r from-green-700 to-green-800">
+      <div className="navbar md:px-6 text-white bg-gradient-to-r from-green-700 to-green-800">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -41,7 +41,7 @@ const Navbar = () => {
                 {links}
             </ul>
           </div>
-          <a className="btn btn-ghost font-bold text-xl md:text-3xl">Digital It</a>
+          <a className="btn btn-ghost p-0 font-bold text-lg md:text-3xl">Digital It</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-semibold">
@@ -51,7 +51,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <ul className="flex gap-2 justify-center items-center">
+          <ul className="flex gap-0.5 md:gap-1 justify-center items-center">
           <li className="bg-yellow-300 py-1 px-3 rounded-xl text-black text-sm font-semibold"><a>Volenter</a></li>
           <li className="border text-yellow-400 border-yellow-300 py-1 px-3 rounded-xl  text-sm font-semibold"><a>Donate</a></li>
           <li className="border border-yellow-300 text-yellow-400 py-1 px-3 rounded-xl  text-sm font-semibold"><a>Connect</a></li>

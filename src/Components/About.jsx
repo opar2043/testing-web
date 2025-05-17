@@ -14,7 +14,7 @@ const About = () => {
             <h3 className="text-xl font-semibold text-gray-700 mb-2">How It Works</h3>
             <p className="text-gray-600">
               We offer online courses, hands-on projects, and mentorship programs. Users can enroll, learn from experts,
-              complete assignments, and receive certifications to advance their careers.
+              complete assignment also receive certifications to advance their careers.
             </p>
           </div>
           <div className="bg-yellow-100 p-6 rounded-lg shadow-md">

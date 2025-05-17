@@ -10,7 +10,7 @@ const Footer = () => {
 
         <div>
         <aside className='flex flex-col gap-1'>
-     <Fa42Group className='text-6xl'></Fa42Group>
+     <Fa42Group className='md:text-6xl text-4xl'></Fa42Group>
     <p className='text-xl '>
       <span className='text-3xl font-bold py-5'>Digital IT Ltd.</span>
       <br />
@@ -28,7 +28,7 @@ const Footer = () => {
 
   <form>
     <h6 className="footer-title">Digital Connection</h6>
-    <fieldset className="form-control w-80">
+    <fieldset className="form-control ">
       <label className="label">
         <span className="text-white">Subscribe Us</span>
       </label>
@@ -43,7 +43,7 @@ const Footer = () => {
   </form>
   <nav >
     <h6 className="footer-title">Contact US!</h6>
-     <div className='flex gap-4 text-2xl'>
+     <div className='flex gap-2 md:gap-4 text-2xl'>
      <a className="link link-hover"><FaFacebook></FaFacebook></a>
     <a className="link link-hover"><FaGithub></FaGithub></a>
     <a className="link link-hover"><SiGmail></SiGmail></a>
